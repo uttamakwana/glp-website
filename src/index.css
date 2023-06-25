@@ -28,19 +28,19 @@ font-family: 'Work Sans', sans-serif;
   scroll-behavior: smooth;
   font-family: Inconsolata, IBM Plex Mono, Belanosima, Inter, "Helvetica",
     sans-serif;
-  font-size: 1rem;
 }
 
 /* Root Variables */
-/* :root {
-  --light-sixty-pr-color: #e1e7e0;
-  --light-thrity-pr-color: #2b4560;
-  --light-ten-pr-color: #2f6d80;
-} */
+:root {
+  --sixty-pr-color: #e1e7e0;
+  --thirty-pr-color: #2b4560;
+  --ten-pr-color: #2f6d80;
+}
 
-.App{
-    min-height: 100vh;
-    background-color: var(--sixty-pr-color);
+input,
+select,
+button {
+  all: unset;
 }
 
 /* Utility Classes */
@@ -61,6 +61,7 @@ font-family: 'Work Sans', sans-serif;
 .heading-text {
   font-size: 3rem;
   font-weight: 700;
+  font-family: IBM Plex Mono, Inter, sans-serif;
 }
 
 .subheading-text {

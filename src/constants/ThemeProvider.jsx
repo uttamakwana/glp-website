@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
+import "./themeprovider.css";
 
 const ThemeProvider = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("orange");
 
   useEffect(() => {
     if (theme === "light") {
@@ -44,11 +45,13 @@ const ThemeProvider = () => {
 
   return (
     <>
-      <button onClick={() => setTheme("light")}>Light</button>
-      <button onClick={() => setTheme("black")}>Black</button>
-      <button onClick={() => setTheme("orange")}>Orange</button>
-      <button onClick={() => setTheme("purple")}>Purple</button>
-      <button onClick={() => setTheme("blue")}>Blue</button>
+      <div className="button-container">
+        <button onClick={() => setTheme("light")}>Light</button>
+        <button onClick={() => setTheme("black")}>Black</button>
+        <button onClick={() => setTheme("orange")}>Orange</button>
+        <button onClick={() => setTheme("purple")}>Purple</button>
+        <button onClick={() => setTheme("blue")}>Blue</button>
+      </div>
     </>
   );
 };

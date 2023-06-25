@@ -9,9 +9,10 @@ function App() {
       {/* Home page where all the Components like 
           -> Header, Footer, Feeds, College Details
       */}
-      <ThemeProvider />
+      {/* <ThemeProvider /> */}
       <Home />
       {/* Auth page, where all the Login, Register stuff will be held */}
+      <ThemeProvider />
     </div>
   );
 }

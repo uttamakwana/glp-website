@@ -1,0 +1,17 @@
+.button-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.button-container button {
+  padding: 0.5rem 1rem;
+  background-color: var(--thirty-pr-color);
+  margin: 0 1rem;
+  width: 100px;
+  border: 1px solid var(--ten-pr-color);
+  color: var(--sixty-pr-color);
+}
