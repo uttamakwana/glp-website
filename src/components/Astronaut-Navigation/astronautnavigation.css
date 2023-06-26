@@ -1,7 +1,7 @@
 .draggable-container {
   position: fixed;
   bottom: 5%;
-  right: 10%;
+  right: 5%;
   display: none;
 }
 
@@ -29,6 +29,7 @@
   height: 100%;
   background-color: var(--sixty-pr-color);
   transition: 0.4s ease;
+  z-index: 10;
 }
 
 .astronaut-navigation-container.active {

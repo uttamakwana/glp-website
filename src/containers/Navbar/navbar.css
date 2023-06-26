@@ -1,7 +1,7 @@
 .desktop-navigation__navigation-container {
   margin: 1rem auto;
   background-color: var(--sixty-pr-color);
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   /* width: 1500px; */
   max-width: 1200px;
 }
@@ -63,7 +63,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 1000px;
-  z-index: -10;
+  /* z-index: -1; */
 }
 
 .desktop-navigation.active {

@@ -14,10 +14,7 @@ const ThemeProvider = () => {
       document.documentElement.style.setProperty("--ten-pr-color", "#2f6d80");
     } else if (theme === "black") {
       document.documentElement.style.setProperty("--sixty-pr-color", "#000000");
-      document.documentElement.style.setProperty(
-        "--thirty-pr-color",
-        "#fff"
-      );
+      document.documentElement.style.setProperty("--thirty-pr-color", "#fff");
       document.documentElement.style.setProperty("--ten-pr-color", "#8E05C2");
     } else if (theme === "orange") {
       document.documentElement.style.setProperty("--sixty-pr-color", "#454545");
@@ -45,13 +42,17 @@ const ThemeProvider = () => {
 
   return (
     <>
-      <div className="button-container">
-        <button onClick={() => setTheme("light")}>Light</button>
-        <button onClick={() => setTheme("black")}>Black</button>
-        <button onClick={() => setTheme("orange")}>Orange</button>
-        <button onClick={() => setTheme("purple")}>Purple</button>
-        <button onClick={() => setTheme("blue")}>Blue</button>
-      </div>
+      {/* <div className="theme-container">
+        <div className="theme-buttons">
+          <div className="button-container">
+            <button onClick={() => setTheme("light")}>Light</button>
+            <button onClick={() => setTheme("black")}>Black</button>
+            <button onClick={() => setTheme("orange")}>Orange</button>
+            <button onClick={() => setTheme("purple")}>Purple</button>
+            <button onClick={() => setTheme("blue")}>Blue</button>
+          </div>
+        </div>
+      </div> */}
     </>
   );
 };
