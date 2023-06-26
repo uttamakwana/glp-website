@@ -1,0 +1,94 @@
+.desktop-navigation__navigation-container {
+  margin: 1rem auto;
+  background-color: var(--sixty-pr-color);
+  padding: 1rem 0.5rem;
+  /* width: 1500px; */
+  max-width: 1200px;
+}
+
+.desktop-navigation__navigation-container__list {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between !important;
+}
+
+.desktop-navigation__navigation-container__list__item {
+  padding: 0.5rem;
+  gap: 0.4rem;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
+  min-width: 12px;
+}
+
+.desktop-navigation__navigation-container__list__item:hover {
+  background-color: var(--thirty-pr-color);
+}
+
+.desktop-navigation__navigation-container__list__item:hover
+  .desktop-navigation__navigation-container__list__item__link {
+  color: var(--sixty-pr-color);
+}
+
+.desktop-navigation__navigation-container__list__item:hover svg {
+  color: var(--sixty-pr-color);
+}
+
+.desktop-navigation__navigation-container__list__item:active {
+  background-color: var(--thirty-pr-color);
+}
+
+.desktop-navigation__navigation-container__list__item:active
+  .desktop-navigation__navigation-container__list__item__link {
+  color: var(--sixty-pr-color);
+}
+
+.desktop-navigation__navigation-container__list__item:active svg {
+  color: var(--sixty-pr-color);
+}
+
+.desktop-navigation__navigation-container__list__item svg {
+  color: var(--thirty-pr-color);
+  height: 2rem;
+  width: 2rem;
+}
+
+.desktop-navigation__navigation-container__list__item__link {
+  color: var(--thirty-pr-color);
+}
+
+.desktop-navigation {
+  position: absolute;
+  transition: 0.5s ease;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  z-index: -10;
+}
+
+.desktop-navigation.active {
+  top: 10%;
+}
+
+@media (max-width: 800px) {
+  .desktop-navigation {
+    display: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1002px) {
+  .desktop-navigation__navigation-container__list {
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+  }
+  /* .desktop-navigation__navigation-container__list__item {
+    width: 70px;
+  } */
+  .desktop-navigation__navigation-container__list__item svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .desktop-navigation {
+    /* width: 800px; */
+    width: 100%;
+  }
+}

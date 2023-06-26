@@ -74,7 +74,7 @@
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 800px) {
   .draggable-container {
     display: block;
   }
