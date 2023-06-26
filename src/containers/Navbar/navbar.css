@@ -4,17 +4,16 @@
   padding: 0.5rem 0.5rem;
   /* width: 1500px; */
   max-width: 1200px;
+  border-radius: 10px;
 }
 
 .desktop-navigation__navigation-container__list {
-  width: 100%;
-  height: 100%;
   justify-content: space-between !important;
 }
 
 .desktop-navigation__navigation-container__list__item {
   padding: 0.5rem;
-  gap: 0.4rem;
+  gap: 0.1rem;
   border-radius: 10px;
   transition: 0.3s ease-out;
   min-width: 12px;

@@ -30,29 +30,6 @@ const Navbar = () => {
       {/* Main navigation for big screen (expect mobile) */}
       <nav className={`desktop-navigation ${activeNavbar ? "active" : ""}`}>
         <nav className="desktop-navigation__navigation-container">
-          {/* <ul className="desktop-navigation__navigation-container__list">
-            <li className="desktop-navigation__navigation-container__list__item">
-              <a href="#home" className="desktop-navigation__navigation-container__list__item__link">College Details</a>
-            </li>
-            <li className="desktop-navigation__navigation-container__list__item">
-              <a href="#home" className="desktop-navigation__navigation-container__list__item__link">Notice Board</a>
-            </li>
-            <li className="desktop-navigation__navigation-container__list__item">
-              <a href="#home" className="desktop-navigation__navigation-container__list__item__link">Opputunity</a>
-            </li>
-            <li className="desktop-navigation__navigation-container__list__item">
-              <a href="#home" className="desktop-navigation__navigation-container__list__item__link">Sample Project</a>
-            </li>
-            <li className="desktop-navigation__navigation-container__list__item">
-              <a href="#home" className="desktop-navigation__navigation-container__list__item__link">IMP Links</a>
-            </li>
-            <li className="desktop-navigation__navigation-container__list__item">
-              <a href="#home" className="desktop-navigation__navigation-container__list__item__link">College Details</a>
-            </li>
-            <li className="desktop-navigation__navigation-container__list__item">
-              <a href="#home" className="desktop-navigation__navigation-container__list__item__link">College Details</a>
-            </li>
-          </ul> */}
           <ul className="desktop-navigation__navigation-container__list flex-center">
             <motion.li
               className="desktop-navigation__navigation-container__list__item flex-center"
