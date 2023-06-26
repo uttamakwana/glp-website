@@ -11,7 +11,7 @@
 #main-component{
   position: absolute;
   top: 20%;
-  background-color: var(--ten-pr-color);
+  /* background-color: var(--ten-pr-color); */
   width: 100vw;
   height: 80%;
   z-index: -2;

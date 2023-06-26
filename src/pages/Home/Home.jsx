@@ -10,7 +10,7 @@ const Home = () => {
       <Header />
       <Navbar />
       {/* Main component */}
-      <main id="main-component">Hello</main>
+      <main id="main-component"></main>
       <AstronautNavigation id="quick-access" />
     </>
   );
