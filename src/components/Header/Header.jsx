@@ -6,6 +6,7 @@ import { MdOutlineNotificationsActive } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { TfiMenu } from "react-icons/tfi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const Header = () => {
   // toggleSearch will toggle the search bar in header
@@ -92,14 +93,20 @@ const Header = () => {
         </ul>
 
         {/* header toggle menu bar icon for mobile/tablet display */}
-        <div className="toggle-bar-container">
+        <motion.div
+          className="toggle-bar-container"
+          transition={{ duration: 0.3 }}
+          initial={{ opacity: 0, scale: 0, x: 200 }}
+          animate={{ opacity: 1, scale: 1, x: 0 }}
+        >
           <TfiMenu
+            id="toggle-menu"
             onClick={() => {
               setToggleSearch(true);
               setToggleMenu(!toggleMenu);
             }}
           />
-        </div>
+        </motion.div>
       </nav>
     </header>
   );

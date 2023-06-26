@@ -16,7 +16,7 @@ const ThemeProvider = () => {
       document.documentElement.style.setProperty("--sixty-pr-color", "#000000");
       document.documentElement.style.setProperty(
         "--thirty-pr-color",
-        "#3E065F"
+        "#fff"
       );
       document.documentElement.style.setProperty("--ten-pr-color", "#8E05C2");
     } else if (theme === "orange") {
@@ -27,17 +27,17 @@ const ThemeProvider = () => {
       );
       document.documentElement.style.setProperty("--ten-pr-color", "#FF6000");
     } else if (theme === "purple") {
-      document.documentElement.style.setProperty("--sixty-pr-color", "#645CBB");
+      document.documentElement.style.setProperty("--sixty-pr-color", "#810CA8");
       document.documentElement.style.setProperty(
         "--thirty-pr-color",
-        "#BFACE2"
+        "#FFFFD0"
       );
-      document.documentElement.style.setProperty("--ten-pr-color", "#EBC7E6");
+      document.documentElement.style.setProperty("--ten-pr-color", "#C147E9");
     } else {
-      document.documentElement.style.setProperty("--sixty-pr-color", "#C9EEFF");
+      document.documentElement.style.setProperty("--sixty-pr-color", "#11009E");
       document.documentElement.style.setProperty(
         "--thirty-pr-color",
-        "#62CDFF"
+        "#F1F6F9"
       );
       document.documentElement.style.setProperty("--ten-pr-color", "#97DEFF");
     }

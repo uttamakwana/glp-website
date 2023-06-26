@@ -97,10 +97,10 @@ figcaption {
 
   #search {
     width: 100%;
-    padding: 0.5rem 2.5rem 0.5rem 0.5rem ;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
   }
 
-  li{
+  li {
     color: var(--thirty-pr-color);
   }
 
@@ -110,5 +110,11 @@ figcaption {
 
   .toggle-bar-container {
     display: block;
+  }
+
+  #toggle-menu {
+    height: 2rem;
+    width: 2rem;
+    color: var(--thirty-pr-color);
   }
 }

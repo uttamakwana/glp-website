@@ -1,0 +1,9 @@
+#quick-access {
+  display: none;
+}
+
+@media only screen and (max-width: 725px) {
+  #quick-access {
+    display: block;
+  }
+}
