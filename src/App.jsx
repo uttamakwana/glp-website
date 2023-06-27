@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import ThemeProvider from "./constants/ThemeProvider";
+import Card from './containers/Card/Card'
 
 function App() {
   return (
@@ -10,9 +11,11 @@ function App() {
           -> Header, Footer, Feeds, College Details
       */}
       {/* <ThemeProvider /> */}
-      <Home />
+      {/* <Home /> */}
       {/* Auth page, where all the Login, Register stuff will be held */}
-      <ThemeProvider />
+      {/* <ThemeProvider /> */}
+
+      <Card />
     </div>
   );
 }

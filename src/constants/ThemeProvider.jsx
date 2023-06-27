@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./themeprovider.css";
 
 const ThemeProvider = () => {
-  const [theme, setTheme] = useState("orange");
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     if (theme === "light") {
